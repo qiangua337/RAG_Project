@@ -1,0 +1,22 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Generated databases and conversation history
+chroma_db/
+chat_history/
+md5.text
+chroma.sqlite3
+chroma.sqlite3-*
